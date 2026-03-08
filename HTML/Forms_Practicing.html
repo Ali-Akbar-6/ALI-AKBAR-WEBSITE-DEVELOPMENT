@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms learning how to create forms</title>
+</head>
+<body>
+    <h1>Please Fill This Form</h1>
+    <form action="">
+        <label for="name">Name:</label>
+        <input 
+        type="text"
+        name="name"
+        id="name"
+        maxlength="15"
+        minlength="5"> <br>
+
+        <label for="email">Email:</label>
+        <input 
+        type="email"
+        name="email"
+        id="email"> <br>
+
+        <label for="password">Password:</label>
+        <input 
+        type="password"
+        name="password" 
+        id="password"
+        required
+        placeholder="Enter a Password"> <br>
+
+        <label for="message">Your Message:</label>
+        <textarea name="message" id="message"></textarea>
+
+        <p>Your Hobbies</p>
+
+        <label for="gaming">Gaming:</label>
+        <input 
+        type="checkbox" 
+        name="hobbies" 
+        id="gaming" 
+        value="Gaming"> <br>
+
+        <label for="swimming">Swimming:</label>
+        <input 
+        type="checkbox" 
+        name="hobbies" 
+        id="swimming" 
+        value="Swimming"> <br>
+
+        <label for="favcolor">Favourite Color:</label>
+        <input 
+        type="color" 
+        name="favcolor" 
+        id="favcolor"> <br>
+        
+        <p>Select Gender</p>
+
+        <label for="male">Male:</label>
+        <input 
+        type="radio" 
+        name="gender" 
+        id="male" 
+        value="male"> <br>
+
+        <label for="female">Female:</label>
+        <input 
+        type="radio" 
+        name="gender" 
+        id="female" 
+        value="female"> <br>
+
+        <label for="other">Other:</label>
+        <input 
+        type="radio" 
+        name="gender" 
+        id="other" 
+        value="other"> <br>
+
+        <label for="birthday">Birthday:</label>
+        <input 
+        type="date" 
+        name="birthday" 
+        id="birthday"
+        max="2100-12-31"
+        min="1900-01-01"> <br>
+
+        <label for="profile-pic">Profile Picture:</label>
+        <input 
+        type="file" 
+        name="profile-pic" 
+        id="profile-pic" 
+        accept="image/*"> <br>
+
+        <button type="reset" value="clear">Reset Form</button> <br>
+        <button type="submit">Submit Form</button> <br>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Lecture</title>
+</head>
+<body>
+    <!-- HTML TABLES AND HTML FORMS -->
+     <table border="1">
+        <!-- TABLE ROWS -->
+        <thead>
+            <tr>
+                <!-- CELLS FOR HEADING -->
+            <th>NAME</th>
+            <th>AGE</th>
+            <th>CITY</th>
+            <th>MARKS</th>
+            </tr>
+        </thead> 
+        <tbody>
+         <tr>
+            <!-- CELLS FOR DATA -->
+            <td>Ahmed</td>
+            <td>20</td>
+            <td>Lahore</td>
+            <td>90</td>
+         </tr>
+         <tr>
+            <td>Ali</td>
+            <td>22</td>
+            <td>Lahore</td>
+            <td>95</td>
+         </tr>
+         </tbody>
+         <tfoot>
+            <tr>
+                <td colspan="3">Totals
+                </td>
+                <td>185</td>
+            </tr>
+         </tfoot>
+     </table>
+     <!-- HTML FORMS WITH INPUT FIELDS -->
+      <form action="">
+       <label for="name">Name:</label>
+       <input 
+            type="text" 
+            id="name"
+            maxlength="15"
+            minlength="5"> <br> 
+
+       <label for="email">Email:</label>
+       <input type="email" id="email"> <br>
+
+       <label for="pwd">Password:</label>
+       <input 
+            type="pwd"
+            required 
+            id="Password" 
+            placeholder="Enter a Password"> <br>
+        
+        <label for="msg">Your Message:</label>
+        <textarea name="" id="msg"></textarea> <br>
+        <button type="submit">Submit Form</button>
+    </form>
+</html>
